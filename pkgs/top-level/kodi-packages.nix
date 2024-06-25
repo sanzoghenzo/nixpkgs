@@ -63,6 +63,8 @@ let
 
     formula1 = callPackage ../applications/video/kodi/addons/formula1 { };
 
+    home-assistant = callPackage ../applications/video/kodi/addons/home-assistant { };
+
     iagl = callPackage ../applications/video/kodi/addons/iagl { };
 
     invidious = callPackage ../applications/video/kodi/addons/invidious { };
@@ -179,6 +181,8 @@ let
 
     inputstreamhelper = callPackage ../applications/video/kodi/addons/inputstreamhelper { };
 
+    iso8601 = callPackage ../applications/video/kodi/addons/iso8601 { };
+
     kodi-six = callPackage ../applications/video/kodi/addons/kodi-six { };
 
     myconnpy = callPackage ../applications/video/kodi/addons/myconnpy { };
@@ -216,6 +220,8 @@ let
     trakt-module = callPackage ../applications/video/kodi/addons/trakt-module { };
 
     trakt = callPackage ../applications/video/kodi/addons/trakt { };
+
+    yaml = callPackage ../applications/video/kodi/addons/yaml { };
 }; in self // optionalAttrs config.allowAliases {
   # deprecated or renamed packages
 
